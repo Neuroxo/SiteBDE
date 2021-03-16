@@ -1,0 +1,655 @@
+@font-face { font-family: 'Love Ya Like A Sister', cursive;}
+@font-face { font-family: 'Cabin Sketch', cursive;}
+@font-face { font-family: 'Permanent Marker', cursive;}
+
+/* CSS page acceuil */
+#acceuil
+{
+	width : 99% ;
+	min-width : 700px ;
+	max-width : 1000x ;
+	background-image : url("fonds/wood3.png");
+	background-repeat : no-repeat ;
+	background-position : top left fixed ;
+	background-attachment: fixed ;
+	position : absolute ;
+	min-height : 100px ;
+	color : #181818 ;
+	font-family : 'Love Ya Like A Sister' ;
+}
+
+#acceuil section 
+{
+	position : relative ;
+	height : 780px ;
+}
+
+#acceuil div , #acceuil nav
+{
+	display : inline-block ;
+}
+
+.logo
+{
+	height : 100px ;
+	width : 140px ;
+}
+
+.logo , #acceuil h1
+{
+	display : inline-block ;
+	margin-bottom : 0px ;
+	margin-left : 10px ;
+	font-size : 5em ;
+}
+
+#acceuil h2
+{
+	margin-top : 0px ;
+	font-size : 3em ;
+}
+
+#acceuil h1, #acceuil h2
+{
+	opacity : 0.9 ;
+}
+
+#acceuil nav 
+{
+	width : 850px ;
+	text-align : right ;
+	margin-top : 70px ;
+	margin-left : 50px ;
+	vertical-align : top ;
+}
+
+#acceuil ul
+{
+	list-style-type : none ;
+}
+
+#acceuil a
+{
+	display : inline-block ;
+	margin-right : 15px ;
+	font-size : 2em ;
+}
+
+.navigation a:link{color : #181818; text-decoration : none; opacity : 0.8;}
+.navigation a:visited{color : #181818; opacity : 0.8;}
+.navigation a:hover{color : #760001; text-shadow : 3px 3px 5px black ; opacity : 1; border-bottom : 3px solid #760001}
+.navigation a:active{color : #181818; opacity : 0.8;}
+
+#acceuil footer
+{
+	display : block ;
+	width : 400px ;
+	height : 100px ;
+	position : absolute ;
+	bottom : -10px ;
+	left : 50px ;
+}
+
+.lien
+{
+	height : 50px ;
+	width : 50px ;
+}
+
+#links a:link{opacity : 0.7 ;}
+#links a:hover{opacity : 1 ; text-shadow : opx 2px 5px #181818 ;}
+
+/*Fin de page acceuil*/
+
+/*CSS Page Présentation */
+
+#presentation
+{
+	width : 99% ;
+	min-width : 700px ;
+	max-width : 1000x ;
+	background-image : url("fonds/siteBackground.jpg");
+	background-repeat : no-repeat ;
+	background-attachment: fixed ;
+	background-position : top left fixed ;
+	position : absolute ;
+	min-height : 100px ;
+}
+
+#presentation h1
+{
+	font-family : 'Love Ya Like A Sister' ;
+}
+#presentation nav , #article
+{
+	font-family : 'Permanent Marker' ;
+}
+	
+#presentation div , #presentation nav
+{
+	display : inline-block ;
+	color : rgb(134,134,134) ;
+}
+
+.logo
+{
+	height : 100px ;
+	width : 140px ;
+}
+
+.logo , #presentation h1
+{
+	display : inline-block ;
+	margin-bottom : 0px ;
+	margin-left : 10px ;
+	font-size : 4.5em ;
+}
+
+#presentation nav 
+{
+	width : 850px ;
+	text-align : right ;
+	margin-top : 70px ;
+	margin-left : 50px ;
+	vertical-align : top ;
+	
+}
+
+#presentation ul
+{
+	list-style-type : none ;
+}
+
+#presentation a
+{
+	display : inline-block ;
+	margin-right : 15px ;
+	font-size : 1.8em ;
+}
+
+.navigation2 a:link{color : rgb(134,134,134); text-decoration : none; opacity : 0.8;}
+.navigation2 a:visited{color : rgb(134,134,134); opacity : 0.8;}
+.navigation2 a:hover{color : #760001; text-shadow : 3px 3px 5px rgb(134,134,134) ; opacity : 1; border-bottom : 3px solid #760001}
+.navigation2 a:active{color : rgb(134,134,134); opacity : 0.8;}
+
+
+#article
+{
+	width : 70% ;
+	min-width : 700px ;
+}
+
+#presentation h2
+{
+	display : inline-block ;
+	width : 100% ;
+	text-align : center ;
+	color : rgb(52,139,203) ;
+	font-size : 3em ;
+	margin-top : 100px ;
+}
+
+#presentation h3, #presentation p
+{
+	display : inline-block ;
+	color : rgb(241,199,233) ;
+}
+
+#presentation article
+{
+	width : 80% ;
+	margin-left : 10% ;
+	text-align : justify ;
+	margin-bottom : 40px ;
+}
+
+/*Fin de la page presentation */
+
+/*Debut de la page staff */
+
+#staff
+{
+	width : 99% ;
+	min-width : 700px ;
+	max-width : 1000x ;
+	background-image : url("fonds/background.jpg");
+	background-repeat : no-repeat;
+	background-position : top left fixed ;
+	background-attachment: fixed ;
+	position : absolute ;
+	min-height : 100px ;
+	color : #181818 ;
+	font-family : 'Love Ya Like A Sister' ;
+}
+
+#staff div , #staff nav
+{
+	display : inline-block ;
+}
+
+.logo
+{
+	height : 100px ;
+	width : 140px ;
+}
+
+.logo , #staff h1
+{
+	display : inline-block ;
+	margin-bottom : 0px ;
+	margin-left : 10px ;
+	font-size : 5em ;
+}
+
+#staff nav 
+{
+	width : 850px ;
+	text-align : right ;
+	margin-top : 70px ;
+	margin-left : 50px ;
+	vertical-align : top ;
+}
+
+#staff ul
+{
+	list-style-type : none ;
+}
+
+#staff a
+{
+	display : inline-block ;
+	margin-right : 15px ;
+	font-size : 1.8em ;
+}
+
+#photos
+{
+	display : inline-block ;
+	width : 70% ;
+	min-width : 800px ;
+	margin-left : 15% ;
+	margin-top : 100px ;
+	background-color : rgb(231,214,135) ;
+	border-radius : 10px ;
+	border-top : 7px rgb(231,214,135) ridge ;
+	border-left : 7px rgb(231,214,135) ridge ;
+	border-bottom : 7px rgb(231,214,135) groove ;
+	border-right : 7px rgb(231,214,135) groove ;
+	position: relative  ;
+}
+
+#photos h2
+{
+	font-size : 4em ;
+	width : 80% ;
+	margin : 10% ;
+	border-radius : 10 px ;
+	text-align : center ;
+	border-top : 3px rgb(0,0,0) ridge ;
+	border-left : 3px rgb(0,0,0) ridge ;
+	border-bottom : 3px rgb(0,0,0) groove ;
+	border-right : 3px rgb(0,0,0) groove ;
+}
+
+#photos h3
+{
+	width : 100% ;
+	text-align : center ;
+	font-size : 2em ;
+}
+
+.trombi
+{
+	display : inline-block ;
+	width : 25% ;
+	text-align : center ;
+	margin-left : 4% ;
+	margin-right : 3% ;
+	margin-bottom : 5% ;
+}
+
+.trombi figure
+{
+	width :80% ;
+	min-width : 100px ;
+}
+
+.trombi figure:hover{border: 3px solid rgb(231,214,135);}
+
+.trombi img
+{
+	border-radius : 7px ;
+}
+
+.trombi2
+{
+	display : inline-block ;
+	width : 25% ;
+	text-align : center ;
+	margin-left : 36% ;
+	margin-right : 39% ;
+	margin-bottom : 5% ;
+}
+
+/*Fin de page Staff */
+
+/* Début de page programme */
+
+#programme
+{
+	width : 99% ;
+	min-width : 700px ;
+	max-width : 1000x ;
+	background-image : url("fonds/bgsite.jpg");
+	background-repeat : no-repeat;
+	background-position : top left fixed ;
+	background-attachment: fixed ;
+	position : absolute ;
+	min-height : 100px ;
+	color : #181818 ;
+	font-family : 'Love Ya Like A Sister' ;
+}
+
+#programme div , #programme nav
+{
+	display : inline-block ;
+}
+
+.logo
+{
+	height : 100px ;
+	width : 140px ;
+}
+
+.logo , #programme h1
+{
+	display : inline-block ;
+	margin-bottom : 0px ;
+	margin-left : 10px ;
+	font-size : 5em ;
+}
+
+#programme nav 
+{
+	width : 850px ;
+	text-align : right ;
+	margin-top : 70px ;
+	margin-left : 50px ;
+	vertical-align : top ;
+}
+
+#programme ul
+{
+	list-style-type : none ;
+}
+
+#programme a
+{
+	display : inline-block ;
+	margin-right : 15px ;
+	font-size : 1.8em ;
+}
+
+#programme section
+{
+	width : 90% ;
+	margin-left : 5% ;
+	text-align : center ;
+	margin-top : 100px ;
+	height : 1000px ;
+}
+
+#programme h2
+{
+	font-size : 3em ;
+}
+
+#programme table
+{
+	margin-top : 100px ;
+	width : 90% ;
+	margin-left : 5% ;
+	font-size : 1.3em ;
+	border : 1px ridge black ;
+	background-color : #F8EBD5 ;
+}
+.cover
+{
+background-color : rgb(244,208,142) ;	
+}
+
+#programme th 
+{
+	width : 8% ;
+}
+
+#programme th, #programme td
+{
+	border : 2px solid black ;
+	border-collapse : collapse ;
+}
+
+.blackout
+{
+	background-color : rgb(84,84,84);
+}
+/*Fin de la page programme */
+
+/*Début page partenaires*/
+
+#partenaires
+{
+	width : 99% ;
+	min-width : 700px ;
+	max-width : 1000x ;
+	background-image : url("fonds/fondsite3.jpeg");
+	background-repeat : no-repeat;
+	background-position : top left fixed ;
+	background-attachment: fixed ;
+	position : absolute ;
+	min-height : 100px ;
+	color : #181818 ;
+	font-family : 'Love Ya Like A Sister' ;
+}
+
+#partenaires div , #partenaires nav
+{
+	display : inline-block ;
+}
+
+.logo
+{
+	height : 100px ;
+	width : 140px ;
+}
+
+.logo , #partenaires h1
+{
+	display : inline-block ;
+	margin-bottom : 0px ;
+	margin-left : 10px ;
+	font-size : 5em ;
+}
+
+#partenaires nav 
+{
+	width : 850px ;
+	text-align : right ;
+	margin-top : 70px ;
+	margin-left : 50px ;
+	vertical-align : top ;
+}
+
+#partenaires ul
+{
+	list-style-type : none ;
+}
+
+#partenaires a
+{
+	display : inline-block ;
+	margin-right : 15px ;
+	font-size : 1.8em ;
+}
+
+#partenaires aside 
+{
+	width : 90% ;
+	min-width : 1200px ;
+	margin-left : 5% ;
+	height : 1100px ;
+}
+#partenaires h2
+{
+	width : 70% ;
+	margin-left : 15% ;
+	margin-top : 50px ;
+	text-align : center ;
+	font-size : 3em ;
+}
+
+.parts
+{
+	display : inline-block ;
+	text-align : center ;
+	width : 15% ;
+	margin-left : 3% ;
+	margin-bottom :	20px ;
+	font-size : 1.5em
+}
+ .parts figure
+ {
+	width : 80% ; 
+	margin-left : 10% ;
+ }
+ 
+ /* Fin de page partenaires */
+ 
+ /* Gestion des pages membres */
+ 
+.membres
+{
+	width : 100% ;
+	min-width : 700px ;
+	max-width : 1000x ;
+	background-image : url("fonds/background.jpg");
+	background-repeat : no-repeat;
+	background-position : top left fixed ;
+	background-attachment: fixed ;
+	position : absolute ;
+	min-height : 100px ;
+	color : #181818 ;
+	font-family : 'Love Ya Like A Sister' ;
+}
+
+.membres div , .membres nav
+{
+	display : inline-block ;
+}
+
+.logo
+{
+	height : 100px ;
+	width : 140px ;
+}
+
+.logo , .membres h1
+{
+	display : inline-block ;
+	margin-bottom : 0px ;
+	margin-left : 10px ;
+	font-size : 5em ;
+}
+
+.membres nav 
+{
+	width : 850px ;
+	text-align : right ;
+	margin-top : 70px ;
+	margin-left : 50px ;
+	vertical-align : top ;
+}
+
+.membres ul
+{
+	list-style-type : none ;
+}
+
+.membres a
+{
+	display : inline-block ;
+	margin-right : 15px ;
+	font-size : 1.8em ;
+}
+
+.tronche
+{
+	display : inline-block ;
+	width : 70% ;
+	min-width : 800px ;
+	margin-left : 15% ;
+	margin-top : 100px ;
+	background-color : rgb(231,214,135) ;
+	border-radius : 10px ;
+	border-top : 7px rgb(231,214,135) ridge ;
+	border-left : 7px rgb(231,214,135) ridge ;
+	border-bottom : 7px rgb(231,214,135) groove ;
+	border-right : 7px rgb(231,214,135) groove ;
+	position: relative  ;
+}
+
+.tronche h2
+{
+	width : 50% ;
+	min-width : 500px ;
+	margin-left : 25% ;
+	text-align : center ;
+	font-size : 3em ;
+}
+
+.profil
+{
+	display : inline-block ;
+	width : 40% ;
+	min-width : 400px ;
+	text-align : center ;
+	margin-left : 30% ;
+	margin-right : 30%
+}
+
+.profil img
+{
+	width : 80% ;
+}
+
+.membres p
+{
+	display : inline-block ;
+	margin-left : 10% ;
+	margin-right : 10% ;
+	font-size : 2em ;
+	margin-bottom : 100px ;
+	margin-top : 50px ;
+	text-align : center ;
+}
+ .bound1
+ {
+	display : inline-block;
+	width : 25% ;
+	min-width : 130px ;
+	margin-left : 5% ;
+ }
+ 
+ .bound2
+ {
+	display : inline-block ;
+	width :25% ;
+	min-width : 130px ;
+	position : relative ; 
+	left : 45% ;
+ }
+ 
+ .tronche img
+ {
+	border-radius : 7px ;
+ }
